@@ -1,0 +1,4 @@
+path: /Users/krathi/developments/ObjexHunter/custom_dataset
+train: images/train
+val: images/train
+names: ['cat', 'drone']

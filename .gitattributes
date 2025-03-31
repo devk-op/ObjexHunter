@@ -1,3 +1,8 @@
-*.h5 filter=lfs diff=lfs merge=lfs -text
-*.hdf5 filter=lfs diff=lfs merge=lfs -text
-*.dat filter=lfs diff=lfs merge=lfs -text
+# Ignore large or dynamic files
+model_dynamic.pt
+*.h5
+*.hdf5
+*.weights
+custom_dataset/
+__pycache__/
+*.log
